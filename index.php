@@ -57,7 +57,7 @@ $i=0;
 
 foreach($web_interface_plugins as $key => $plugin){
 
-    //if (preg_match($plugin['name'], $installed_plugins)) {
+    //if (preg_match($plugin->name, $installed_plugins)) {
 
         if ($i!=0 && fmod($i, 3) == 0) {
             echo '
