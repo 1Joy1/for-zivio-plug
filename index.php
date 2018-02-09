@@ -13,13 +13,11 @@ require_once("JsonLoader.php");
 
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/bootstrap-select.min.js"></script>
   <script src="js/helper.js"></script>
 
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/bootstrap-select.min.css">
-  <link rel="stylesheet" href="css/bootstrap.card.css">
+  <link rel="stylesheet" href="css/card.css">
 
 </head>
 <body>
@@ -105,12 +103,7 @@ foreach($web_interface_plugins as $key => $plugin){
             </div>
 <?
 	    $i++;
-   // }
 
-
-    //if (!next($web_interface_plugins)) {
-	//   echo '</div>';
-	//}
 }
 
 echo '
@@ -119,7 +112,7 @@ echo '
     ';
 ?>
 <!-- Notifies Alert -->
-    <div style="position: fixed;z-index: 2000;width: 100%;bottom: 0px;">
+    <div style="position: fixed;z-index: 2000;width: 100%;bottom: 10px;">
         <div class="row row-fixed-top">
             <div id="notifies_alert" class="col-md-8 col-md-offset-2"></div>
         </div>

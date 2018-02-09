@@ -22,10 +22,7 @@ $(document).ready(function() {
             NotifyAlert(reason, "Плагин <b>" + plugin_name + "</b> - команда \"" + command + "\" обработатна успешно.");
 
         }
-
-
-
-    })
+    });
 });
 
 
@@ -54,9 +51,6 @@ function NotifyAlert(reason, text) {
         setTimeout(function() {
             $("#myAlert").alert("close");
         }, 8000);
-
-
-
     }
 
 }
