@@ -1845,6 +1845,10 @@ pre code {
     margin-left: auto
 }
 
+.container-indent {
+    margin-top: 200px;
+}
+
 @media (min-width: 768px) {
     .container {
         width:750px
@@ -4389,7 +4393,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 
 .navbar {
     position: relative;
-    min-height: 50px;
+    min-height: 100px;
     margin-bottom: 20px;
     border: 1px solid transparent
 }
@@ -6981,6 +6985,27 @@ button.close {
 @media (max-width: 767px) {
     .hidden-xs {
         display:none!important
+    }
+    
+    .brand-logo {
+        width: 50%;
+        height: auto;
+    }
+
+    .container-indent {
+        margin-top: 100px;
+    }
+    
+    .navbar {
+        min-height: 80px;
+    }
+
+    .navbar-brand > img {
+        width: 50%;
+    }
+    
+    .navbar-fixed-top {
+        position: absolute;
     }
 }
 
